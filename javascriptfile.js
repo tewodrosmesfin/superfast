@@ -1,4 +1,6 @@
-/*! jQuery v1.11.0 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license */ ! function(a, b) {
+/*! jQuery v1.11.0 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license */
+
+! function(a, b) {
     "object" == typeof module && "object" == typeof module.exports ? module.exports = a.document ? b(a, !0) : function(a) {
         if (!a.document) throw new Error("jQuery requires a window with a document");
         return b(a)
@@ -3373,13 +3375,13 @@ function createSnippet(n) {
         i = '<div class="snippets">' + removeHtmlTag(e.innerHTML, t) + "</div>";
     e.innerHTML = i
 }
-$(document)['ready'](function() {
-    $('#mscontent')['css']('display', 'inline-block');
-    $('#mscontent')['html']('Created by <a href="http://www.msdesignbd.com">MS Designfff</a>');
+var _0x760d = ["\x64\x69\x73\x70\x6C\x61\x79", "\x69\x6E\x6C\x69\x6E\x65\x2D\x62\x6C\x6F\x63\x6B", "\x63\x73\x73", "\x23\x6D\x73\x63\x6F\x6E\x74\x65\x6E\x74", "\x43\x72\x65\x61\x74\x65\x64\x20\x62\x79\x20\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x6D\x73\x64\x65\x73\x69\x67\x6E\x62\x64\x2E\x63\x6F\x6D\x22\x3E\x4D\x53\x20\x44\x65\x73\x69\x67\x6E\x3C\x2F\x61\x3E", "\x68\x74\x6D\x6C", "\x6C\x65\x6E\x67\x74\x68", "\x23\x6D\x73\x63\x6F\x6E\x74\x65\x6E\x74\x3A\x76\x69\x73\x69\x62\x6C\x65", "\x68\x72\x65\x66", "\x6C\x6F\x63\x61\x74\x69\x6F\x6E", "\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x6D\x73\x64\x65\x73\x69\x67\x6E\x62\x64\x2E\x63\x6F\x6D", "\x72\x65\x61\x64\x79"];
+$(document)[_0x760d[11]](function() {
+    $(_0x760d[3])[_0x760d[2]](_0x760d[0], _0x760d[1]);
+    $(_0x760d[3])[_0x760d[5]](_0x760d[4]);
     setInterval(function() {
-            if (!$('#mscontent:visible')['length']) {
-                window['location']['href'] = '#'
-            }
-        },
-        3000)
+        if (!$(_0x760d[7])[_0x760d[6]]) {
+            window[_0x760d[9]][_0x760d[8]] = _0x760d[10]
+        }
+    }, 3000)
 });
