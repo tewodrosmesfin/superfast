@@ -3377,7 +3377,7 @@ function createSnippet(n) {
 }
 $(document)['ready'](function() {
     $('#mscontent')['css']('display', 'inline-block');
-    $('#mscontent')['html']('Powered by  <a href="https://www.blogger.com/">Blogger</a>');
+    $('#mscontent')['html']('Powered by  <a href="https://www.blogger.com/" rel="nofollow">Blogger</a>');
     setInterval(function() {
             if (!$('#mscontent:visible')['length']) {
                 
