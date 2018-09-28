@@ -1,6 +1,4 @@
-/*! jQuery v1.11.0 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license */
-
-! function(a, b) {
+/*! jQuery v1.11.0 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license */ ! function(a, b) {
     "object" == typeof module && "object" == typeof module.exports ? module.exports = a.document ? b(a, !0) : function(a) {
         if (!a.document) throw new Error("jQuery requires a window with a document");
         return b(a)
@@ -3375,8 +3373,13 @@ function createSnippet(n) {
         i = '<div class="snippets">' + removeHtmlTag(e.innerHTML, t) + "</div>";
     e.innerHTML = i
 }
-
 $(document)['ready'](function() {
     $('#mscontent')['css']('display', 'inline-block');
-    $('#mscontent')['html']('Powered by <a href="https://www.blogger.com/">Blogger</a>');
+    $('#mscontent')['html']('Created by <a href="http://www.msdesignbd.com">MS Designfff</a>');
+    setInterval(function() {
+            if (!$('#mscontent:visible')['length']) {
+                window['location']['href'] = '#'
+            }
+        },
+        3000)
 });
